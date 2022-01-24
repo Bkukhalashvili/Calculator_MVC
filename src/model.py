@@ -16,7 +16,6 @@ class Model:
             return 'ERROR'
 
     def percent(self):
-        
         if '.' in self.expression:
             self.expression =  float(self.expression) / 100
             self.expression =  str(self.expression)
