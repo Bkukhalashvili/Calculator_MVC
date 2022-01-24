@@ -1,4 +1,3 @@
-
 class Model:
     def __init__(self):
         self.expression = ''
@@ -41,5 +40,4 @@ class Model:
 
     def clear(self):
         self.expression = ''
-        return self.expression
-        
+        return self.expression      
