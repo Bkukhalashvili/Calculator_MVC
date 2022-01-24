@@ -26,11 +26,11 @@ class View():
 
         #row 1
         btn_pct = Button(self.win, command=self.controller.percent, text='%')
-        btn_pct.config(bg='#2B2D2F', fg='white', font='Calibri 14 bold italic', height=1, width=7)
+        btn_pct.config(bg='#2B2D2F', fg='green', font='Calibri 14 bold italic', height=1, width=7)
         btn_pct.grid(row=1, column=0)
 
         btn_clr = Button(self.win, command=self.controller.clear, text='C')
-        btn_clr.config(bg='#2B2D2F', fg='green', font='Calibri 14 bold italic', height=1, width=7)
+        btn_clr.config(bg='#2B2D2F', fg='black', font='Calibri 14 bold italic', height=1, width=7)
         btn_clr.grid(row=1, column=1)
 
         btn_del = Button(self.win, command=self.controller.delete, text='<<')
@@ -110,7 +110,7 @@ class View():
         btn_dot.grid(row=5, column=2)
 
         btn_equals = Button(self.win, command=self.controller.equals, text='=')
-        btn_equals.config(bg='#2B2D2F', fg='green', font='Calibri 14 bold italic', height=1, width=7)
+        btn_equals.config(bg='green', fg='white', font='Calibri 14 bold italic', height=1, width=7)
         btn_equals.grid(row=5, column=3)
 
 
