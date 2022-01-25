@@ -5,7 +5,6 @@ class View():
     win = Tk()
     
     def __init__(self, controller):
-        super().__init__()
         self.controller = controller
         #style
         self.win.title('Simple Calculator')
